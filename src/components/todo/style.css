@@ -1,0 +1,41 @@
+.todo-container {
+    width: 250px;
+    /* height: 150px; */
+    border: 3px solid red;
+    border-radius: 10px;
+    padding: 12px 24px 24px 24px;
+  }
+
+  .todo-title {
+    font-weight: bold;
+  }
+  
+  .button-box{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .todo-del-button {
+    border: 5px solid red;
+    border-radius: 5px;
+    background-color: #fff;
+    font-weight: bold;
+  }
+.todo-done-button {
+    border: 5px solid green;
+    border-radius: 5px;
+    background-color: #fff;
+    font-weight: bold;
+}
+.todo-del-button:hover {
+    border: 5px solid white;
+    border-radius: 5px;
+    background-color: red;
+}
+
+.todo-done-button:hover {
+    border: 5px solid white;
+    border-radius: 5px;
+    background-color: green;
+}
